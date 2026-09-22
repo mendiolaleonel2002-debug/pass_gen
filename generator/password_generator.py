@@ -3,7 +3,7 @@ import random
 
 def generator_password(length = 12):
     characters = (
-        string.ascii_lowrercase +
+        string.ascii_lowercase +
         string.ascii_uppercase + 
         string.digits +
         string.punctuation
