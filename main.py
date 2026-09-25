@@ -14,7 +14,7 @@ def main():
         return
 
     if length < 12:
-        print("Error: la longitud debe ser de 4 o más caracteres.")
+        print("Error: la longitud debe ser de 12 o más caracteres.")
         return 
 
     password = generator_password(length)
