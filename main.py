@@ -1,5 +1,6 @@
-import sys 
+import sys
 from generator.password_generator import generator_password
+
 
 def main():
 
@@ -15,11 +16,12 @@ def main():
 
     if length < 12:
         print("Error: la longitud debe ser de 12 o más caracteres.")
-        return 
+        return
 
     password = generator_password(length)
 
     print("Contraseña generada:", password)
+
 
 if __name__ == "__main__":
     main()
